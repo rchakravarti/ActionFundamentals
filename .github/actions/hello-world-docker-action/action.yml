@@ -8,6 +8,8 @@ inputs:
 outputs:
   time:
     description: 'The time we said hello.'
+  var1:
+    description: 'test variable output.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
